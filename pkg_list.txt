@@ -1,5 +1,4 @@
 bazel
-bear
 blender
 ccache
 chromium

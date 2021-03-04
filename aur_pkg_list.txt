@@ -1,3 +1,4 @@
+bear
 checkmake
 itch
 multimc5
