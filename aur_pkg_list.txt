@@ -1,0 +1,6 @@
+checkmake
+itch
+multimc5
+python36
+vim-plug
+zoom

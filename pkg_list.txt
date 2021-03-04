@@ -2,7 +2,6 @@ bazel
 bear
 blender
 ccache
-checkmake
 chromium
 cmake
 code
@@ -13,16 +12,13 @@ gimp
 go
 handbrake
 htop
-itch
 kcm-wacomtablet
 krita
-multimc5
 neovim
 ninja
 nvidia-container-toolkit
 perf
 postgresql
-python36
 python-virtualenv
 rsync
 screenfetch
@@ -30,9 +26,7 @@ signal-desktop
 stack
 terminus-font
 tlp
-vim-plug
 vlc
 wget
 xournalpp
 youtube-dl
-zoom
