@@ -1,6 +1,8 @@
-.PHONY: install python_pkgs pacman_pkgs nvim_config
+.PHONY: install install_sudo python_pkgs pacman_pkgs nvim_config
 
-install: nvim_config python_pkgs pacman_pkgs
+install: nvim_config python_pkgs
+
+install_sudo: pacman_pkgs
 
 python_pkgs: requirements.txt
 	python3 -m pip install -U --user -r requirements.txt
