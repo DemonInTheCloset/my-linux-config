@@ -17,6 +17,7 @@ neovim
 ninja
 perf
 postgresql
+python-neovim
 python-virtualenv
 rsync
 screenfetch
@@ -26,5 +27,6 @@ terminus-font
 tlp
 vlc
 wget
+xclip
 xournalpp
 youtube-dl
