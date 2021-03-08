@@ -7,6 +7,7 @@ My Arch Linux Configuration
 ### Installing Packages
 
 run `sudo make install_sudo`, this will install the required packages
+
 run `pamac build - < aur_pkgs_list.txt`, this will install the required AUR packages
 
 ### Write Configuration
