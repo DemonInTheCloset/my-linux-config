@@ -2,7 +2,5 @@ bear
 checkmake
 itch
 multimc5
-nvidia-container-toolkit
-python36
 vim-plug
 zoom
