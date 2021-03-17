@@ -17,7 +17,6 @@ neovim
 ninja
 perf
 postgresql
-python-neovim
 python-virtualenv
 rsync
 screenfetch
