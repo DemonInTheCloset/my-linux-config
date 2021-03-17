@@ -50,7 +50,7 @@ let g:netrw_winsize=25      " Fix size to 25 characters
 let g:netrw_altv=1          " Split window to the left
 
 " ################################################################
-" ################# File Specific Tab Behaviour  #################
+" ################# File Specific Behaviour      #################
 " ################################################################
 filetype plugin indent on
 
@@ -71,28 +71,29 @@ augroup END
 syntax enable
 
 " Apparence
-set cursorline      " Highlight current line
-set nowrap          " Long lines won't wrap
+set cursorline          " Highlight current line
+set nowrap              " Long lines won't wrap
 " Tab And Indentation Settings
-set tabstop=4       " 4 spaces for a tab
-set softtabstop=0   " Disable softtabstop
-set shiftwidth=4    " Indentation depth
-set expandtab       " Change tabs to spaces
-set smarttab        " Auto detect indentation
-set smartindent     " Make indentation smarter
-set autoindent      " Auto indent
+set tabstop=4           " 4 spaces for a tab
+set softtabstop=0       " Disable softtabstop
+set shiftwidth=4        " Indentation depth
+set expandtab           " Change tabs to spaces
+set smarttab            " Auto detect indentation
+set smartindent         " Make indentation smarter
+set autoindent          " Auto indent
+set foldmethod=syntax   " Fold according to syntax
 " Search settings
 set path=.,/usr/include,**
 set wildmenu
 set hlsearch ic
 set ignorecase
 " CoC Options
-set updatetime=300  " Update every 300 ms
-set timeoutlen=200  " Timeout after 200 ms
-set hidden          " TextEdit might fail if hidden is not set
-set shortmess+=c    " Don't pass messages to ins-completion-menu
-set cmdheight=2     " Give more space for displaying messages
-set nobackup        " Some servers have issues with backup files, see #649.
+set updatetime=300      " Update every 300 ms
+set timeoutlen=200      " Timeout after 200 ms
+set hidden              " TextEdit might fail if hidden is not set
+set shortmess+=c        " Don't pass messages to ins-completion-menu
+set cmdheight=2         " Give more space for displaying messages
+set nobackup            " Some servers have issues with backup files, see #649.
 set nowritebackup
 
 " ################################################################
